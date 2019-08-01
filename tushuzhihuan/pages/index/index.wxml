@@ -1,0 +1,115 @@
+<view>
+
+  <!-- 轮播图设置 -->
+  <view class='lunbotu'>
+    <swiper indicator-dots='false' autoplay='false' interval='6000' duration='3000'>
+      <swiper-item>
+        <image src='/images/lunbotu/siliuji.jpg' mode='widthFix'></image>
+      </swiper-item>
+      <swiper-item>
+        <image src='/images/lunbotu/jiaocai.jpg' mode='widthFix'></image>
+      </swiper-item>
+      <swiper-item>
+        <image src='/images/lunbotu/kongwuyuan.jpg' mode='widthFix'></image>
+      </swiper-item>
+      <swiper-item>
+        <image src='/images/lunbotu/kaoyan.jpg' mode='widthFix'></image>
+      </swiper-item>
+      <swiper-item>
+        <image src='/images/lunbotu/jisuanji.jpg' mode='widthFix'></image>
+      </swiper-item>
+    </swiper>
+  </view>
+
+  <!-- 搜索框设置 -->
+  <view class='sousu'>
+    <navigator url='http:baidu.com'><icon class="searchcion" size='15' type='search'></icon></navigator>
+    <input type='text' disabled placeholder="书籍名 / 作者 / ISBN" confirm-type='search'></input>
+  </view>
+
+  <view class='title'>全部书单</view>
+  <!-- 分类框设置 -->
+  <!-- <view>
+<view class='title1'>书单分类</view>
+<view class='fenlei'>
+<view>考公务员</view>
+<view>考研</view>
+<view>考证</view>
+<view>英语</view>
+<view>互联网</view>
+<view>文学</view>
+<view>教辅</view>
+<view>其他</view>
+</view> -->
+
+  <!-- 书单设置start -->
+  <navigator url='/pages/ruanjian/ruanjian'>
+    <view class='div1'>
+      <view class='image'>
+        <image src='{{src1}}'></image>
+      </view>
+      <view class='qiantao1'>
+        <view class='title'>软件设计师试题分析与解答</view>
+        <view class='text'>5成新</view>
+        <view class='qiantao2'>
+          <view class='price'>￥12.8</view>
+          <view class='zheko'>3.5折</view>
+        </view>
+      </view>
+   </view>
+  </navigator>
+
+  <navigator url=''>
+    <view class='div2'>
+      <view class='image'>
+        <image src='{{src2}}'></image>
+      </view>
+      <view class='qiantao1'>
+        <view class='title'>2019年国家教师资格考试用书</view>
+        <view class='text'>9成新</view>
+        <view class='qiantao2'>
+          <view class='price'>￥88.8</view>
+          <view class='zheko'>8.5折</view>
+        </view>
+      </view>
+    </view>
+  </navigator>
+
+  <navigator url=''>
+    <view class='div2'>
+      <view class='image'>
+        <image src='{{src3}}'></image>
+      </view>
+      <view class='qiantao1'>
+        <view class='title'>活着</view>
+        <view class='text'>9成新</view>
+        <view class='qiantao2'>
+          <view class='price'>￥10</view>
+          <view class='zheko'>8.5折</view>
+        </view>
+      </view>
+    </view>
+  </navigator>
+
+  <navigator url=''>
+    <view class='div2'>
+      <view class='image'>
+        <image src='{{src4}}'></image>
+      </view>
+      <view class='qiantao1'>
+        <view class='title'>星火英语六级试卷</view>
+        <view class='text'>9成新</view>
+        <view class='qiantao2'>
+          <view class='price'>￥12</view>
+          <view class='zheko'>5.4折</view>
+        </view>
+      </view>
+    </view>
+  </navigator>
+ 
+  <navigator>
+    <view class='gengduo'>下滑查看更多~~</view>
+  </navigator>
+
+
+</view>

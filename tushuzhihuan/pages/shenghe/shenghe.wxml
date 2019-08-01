@@ -1,0 +1,15 @@
+<view>
+
+<view class='biaodan'>
+<view>书 名：微信小程序</view>
+<view>数 量：1</view>
+<view>价 格：￥23{{price}}</view>
+<view>原 价：￥79.8{{yuanjia}}</view>
+<view> ISBN:978-7-302-51803-7</view>
+<view>描 述：知识点写得很详细，比较适合初学者用</view>
+<view>图 片：<image src='/images/weixin.jpg' mode='aspectFit'></image></view>
+<view>状 态：审核中</view>
+</view>
+
+
+</view>

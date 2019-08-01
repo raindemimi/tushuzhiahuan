@@ -1,0 +1,16 @@
+.biaodan input{
+  border: 1rpx solid #ededed;
+  margin:30rpx 30rpx 0 30rpx;
+  padding: 20rpx 0 20rpx 50rpx;
+}
+.biaodan button{
+  margin: 30rpx 30rpx;
+}
+
+.biaodan textarea{
+  border: 1rpx solid #ededed;
+  margin:30rpx 30rpx 0rpx 30rpx;
+  padding: 20rpx 0 20rpx 50rpx;
+  width: 640rpx;
+}
+

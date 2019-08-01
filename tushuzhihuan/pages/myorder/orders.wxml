@@ -1,0 +1,27 @@
+<view class="main" wx:for='{{orders}}'>
+  <navigator url='/pages/ruanjian/ruanjian'>
+    <view class="orders-box">
+      <view wx:for="{{orders}}" wx:key="index" class="orders-list">
+        <image class="orders-thumb" src="{{item.image}}"></image>
+        <view class="orders-pro-name">{{item.title}}</view>
+        <view class="orders-pro-price">￥{{item.price}}</view>
+        <view class="orders-count-num">×{{item.num}}</view>
+      </view>
+    </view>
+  </navigator>
+
+  <view class="orders-address">
+    <view>收货人: {{address.name}}</view>
+    <view>电 话: {{address.phone}}</view>
+    <view>地 址：{{address.detail}}</view>
+    <view>订单状态：未支付</view>
+  </view>
+
+  <view class='btn'>
+    <button bindtap='delet' data-index="{{index}}">取消订单</button>
+    <navigator url='/pages/orders/orders'>
+      <button>去支付</button>
+    </navigator>
+  </view>
+
+</view>

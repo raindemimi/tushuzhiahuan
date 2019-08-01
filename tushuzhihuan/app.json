@@ -1,0 +1,52 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/biaodan/biaodan",
+    "pages/logs/logs",
+    "pages/maishu/maishu",
+    "pages/guowuche/guowuche",
+    "pages/my/my",
+    "pages/myorder/orders",
+    "pages/ruanjian/ruanjian",
+    "pages/address/address",
+    "pages/orders/orders",
+    "pages/shenghe/shenghe"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "white",
+    "navigationBarTitleText": "二手图书",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar":{
+    "color": "#000000",
+    "selectedColor":"#d81e06",
+    "list":[
+      {
+        "pagePath":"pages/index/index",
+        "iconPath":"/images/tabBar/home1.png",
+        "selectedIconPath":"/images/tabBar/home2.png",
+        "text":"首页"
+      },
+      {
+        "pagePath": "pages/maishu/maishu",
+        "iconPath": "/images/tabBar/书1.png",
+        "selectedIconPath": "/images/tabBar/书2.png",
+        "text": "卖书"
+      },
+      {
+        "pagePath":"pages/guowuche/guowuche",
+        "iconPath":"/images/tabBar/购物车1.png",
+        "selectedIconPath":"/images/tabBar/购物车2.png",
+        "text":"购物车"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "iconPath": "/images/tabBar/nickname1.png",
+        "selectedIconPath": "/images/tabBar/nickname2.png",
+        "text": "我的"
+      }
+    ]
+  }
+}

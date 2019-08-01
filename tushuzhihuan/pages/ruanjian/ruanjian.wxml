@@ -1,0 +1,28 @@
+<view>
+
+  <view class='image'>
+    <image src='/images/guowuche/ruankao.jpg' mode='apsectFit'></image>
+  </view>
+
+  <view class='jianjie'>
+    <view class='title'>软件设计师试题分析与解答</view>
+    <view class='qiantao2'>
+      <view class='price'>￥12.8</view>
+      <view class='zheko'>3.5折</view>
+    </view>
+    <view class='yuanjia'>原 价：￥32.8</view>
+    <view class='yuanjia'>数 量：2</view>
+    <view class='zouzhe'>卖 家：蒲公英的約定</view>
+  </view>
+
+  <view class='jiyu'>
+    <view class='title'>卖家评论</view>
+    <text class='text' space='emsp'>今年买的，已经考完软考了，基本题型都有，支持自提和邮寄</text>
+  </view>
+
+  <view class='bottom'>
+    <text>联系卖家</text>
+    <text bindtap="addTocount">加入购物车</text>
+  </view>
+
+  </view>

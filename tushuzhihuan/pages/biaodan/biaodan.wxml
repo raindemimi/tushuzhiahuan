@@ -1,0 +1,16 @@
+<view class='biaodan'>
+
+  <form bindsubmit='onSubmit' bindreset='onReset'>
+    <input name='name' value='{{tushu.name}}' type='text' placeholder='请输入书名' bindinput='input'></input>
+    <input name='number' value='{{tushu.number}}' type='number' placeholder='请输入出售数量' bindinput='input'></input>
+    <input name='price' value='{{tushu.price}}' type='number' placeholder='请输入出售价格' bindinput='input'></input>
+    <input name='yuanjia' value='{{tushu.yuanjia}}' type='number' placeholder='请输入购买原价' bindinput='input'></input>
+    <input name='isbn' value='{{tuahu.isbn}}' type='number' placeholder='请输入书的ISBN' bindinput='input'></input>
+    <textarea name='miaoshu' value='{{tushu.miaoshu}}' type='text' placeholder='详情描述' auto-height='true'></textarea>
+    <button name='tupian' bindtap="upload" bindinput='input'> 上传图片 </button>
+    <image src='{{tempFilePaths}}' mode='widthFix'></image>
+    <button form-type='submit'>提交</button>
+    <button form-type='reset'>重置</button>
+  </form>
+
+</view>

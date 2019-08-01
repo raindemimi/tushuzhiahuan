@@ -1,0 +1,17 @@
+<view>
+
+<view class="my-item">
+  <navigator url="/pages/biaodan/biaodan" hover-class="navigator-hover">我要卖书</navigator>
+</view>
+
+<view class="my-item">
+  <navigator url="/pages/shenghe/shenghe" hover-class="navigator-hover">我的审核</navigator>
+</view>
+
+<view class="my-item">
+  <navigator url="http://baidu.com" hover-class="navigator-hover">了解更多卖书的规则</navigator>
+</view>
+
+
+
+</view>

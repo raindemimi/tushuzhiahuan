@@ -1,0 +1,116 @@
+@import '../../common.wxss';
+/* 轮播图样式设置start */
+swiper{
+  height: 350rpx;
+}
+swiper-item{
+  height: 350rpx;
+}
+/* 轮播图样式设置end */
+
+
+/* 搜索框样式设置start */
+.sousu{
+  border: 1px solid #d0d0d0;  
+  border-radius: 20rpx;  
+  margin: 50rpx; 
+  background-color: #f2f2f2;
+  display: flex;
+  flex-direction: row;
+}
+.searchcion {  
+  margin: 20rpx; 
+  margin-left: 30rpx;
+}  
+.sousu input{
+  margin: 10rpx;
+  font-family: 微软雅黑;
+  font-size: 30rpx;
+}
+/* 搜索框样式设置end */
+
+/* 分类框样式设置start */
+.title{
+  padding-left: 15rpx;
+  font-family: 微软雅黑;
+  font-size: 35rpx;
+  font-weight: bold;
+  padding-bottom: 25rpx;
+}
+/* .fenlei{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.fenlei view{
+  width: 150rpx;
+  font-size: 30rpx;
+  font-family: 微软雅黑;
+  background-color: #f2f2f2;
+  border-radius: 10rpx;
+  text-align:  center;
+  margin: 10rpx;
+  height: 70rpx;
+  line-height: 70rpx;
+} */
+/* 分类框样式设置end */
+
+/* 书单设置start */
+.div1{
+  border-top: 1px solid #d0d0d0; 
+  border-bottom: 1px solid #d0d0d0;
+  display: flex;
+  flex-direction: row;
+  height: 200rpx;
+  padding: 25rpx;
+}
+.div2{
+  border-bottom: 1px solid #d0d0d0; 
+  display: flex;
+  flex-direction: row;
+  height: 200rpx;
+  padding: 25rpx;
+}
+
+
+.image image{
+  width: 200rpx;
+  height: 200rpx;
+}
+.qiantao1{
+  display: flex;
+  flex-direction: column;
+}
+.title{
+  padding-top: 25rpx;
+  padding-left: 40rpx;
+  font: 32rpx 微软雅黑 black;
+  font-weight: bold;
+}
+.text{
+  padding: 0rpx 0rpx 20rpx 50rpx;
+  font: 20rpx 微软雅黑  #d0d0d0;
+}
+.qiantao2{
+  display: flex;
+  flex-direction: row;
+}
+.price{
+  padding-left: 40rpx;
+  padding-right: 40rpx;
+  font: 45rpx 微软雅黑  #d0d0d0;
+}
+.zheko{
+  border: 1px solid red;  
+  border-radius: 20rpx;
+  color: red;
+  padding: 5rpx 5rpx 5rpx 5rpx;
+}
+
+.gengduo{
+  font: 10rpx 微软雅黑 rgb(226, 223, 223);
+  text-align: center;
+  padding-top: 20rpx;
+  padding-bottom: 20rpx;
+}
